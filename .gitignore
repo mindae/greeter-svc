@@ -1,0 +1,42 @@
+# Build
+target/
+build/
+out/
+
+# Maven
+pom.xml.tag
+pom.releaseBackup
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and temp
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Spring Boot
+spring-boot-devtools.properties
+
+# Local overrides (keep out of repo)
+application-local.properties
+application-local.yml
+*.local
